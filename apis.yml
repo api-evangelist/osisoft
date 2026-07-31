@@ -1,24 +1,67 @@
 aid: osisoft
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/osisoft.png
 name: OSIsoft
-description: 'OSIsoft is a company surfaced as a portfolio company of softbank-vision-fund and added to
-  the API Evangelist network as a stub for enrichment. Sector: enterprise. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'OSIsoft was the enterprise software company behind the PI System, the
+  operational data infrastructure used across manufacturing, energy, utilities, oil
+  and gas, and other industrial sectors to collect, historize, contextualize, and
+  visualize high-volume real-time sensor and control-system time-series data. Its
+  developer surface centered on the PI Web API (a RESTful interface to the PI Data
+  Archive and Asset Framework), AF SDK, and the PI Square developer community. OSIsoft
+  was acquired by AVEVA in 2021; all osisoft.com and docs.osisoft.com properties now
+  redirect to AVEVA, where the product ships as the AVEVA PI System. This profile is
+  maintained as a historical/acquired-company record in the API Evangelist network,
+  with developer resources pointing at the live AVEVA successor pages.'
 url: https://raw.githubusercontent.com/api-evangelist/osisoft/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - softbank-vision-fund
+x-acquired-by: aveva
+x-status: acquired
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
 - Enterprise
+- Industrial
+- Operational Data
+- Time Series
+- IIoT
+- PI System
+- Manufacturing
 apis: []
+common:
+- type: DomainSecurity
+  url: security/osisoft-domain-security.yml
+- type: Website
+  url: https://www.osisoft.com
+- type: DeveloperPortal
+  url: https://docs.aveva.com/
+- type: Documentation
+  url: https://docs.aveva.com/
+- type: Support
+  url: https://community.aveva.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
