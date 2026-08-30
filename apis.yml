@@ -56,6 +56,11 @@ tags:
 - Manufacturing
 apis: []
 common:
+- type: ParentCompany
+  url: https://apis.io/providers/aveva/
+  name: AVEVA
+  x-relationship: acquired
+  x-evidence: "OSIsoft was acquired by AVEVA in 2021; all osisoft."
 - type: DomainSecurity
   url: security/osisoft-domain-security.yml
 - type: Website
